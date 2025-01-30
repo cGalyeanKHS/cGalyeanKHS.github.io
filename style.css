@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-  background: #3BA5A5;
+  background: #3ba5a5;
   margin: 0 auto;
   display: flex;
   padding: 10px;
@@ -47,7 +47,7 @@ a {
 
 /* main container area beneath menu */
 main {
-  background: #3BA5A5;
+  background: #3ba5a5;
   display: flex;
   margin-top: 20px;
   border: 1 solid black;
@@ -73,7 +73,7 @@ main {
 
 /* interests section styles */
 #interests {
-  border: 4px silver ridge;
+  border: 4px #aee1df ridge;
   border-radius: 5px;
   padding: 8px;
   margin-top: 20px;
@@ -113,25 +113,25 @@ h3 {
 
 #boxes {
   background-color: #369696;
-  border:2px solid #0E0E44;
+  border: 2px solid #0e0e44;
   border-radius: 10px;
   width: 300px;
-  height:150px;
+  height: 150px;
   text-align: center;
   align-content: center;
   align-items: center;
 }
 
 #box1 {
-    color: #C4E9E7;
-    border-radius: 10px;
-    text-align: center;
+  color: #c4e9e7;
+  border-radius: 10px;
+  text-align: center;
 }
 
 #box2 button {
-  color: #D2EEED;
-  border:2px solid #000000;
+  color: #d2eeed;
+  border: 2px solid #000000;
   border-radius: 10px;
-  background-color: #5ED4D2;
+  background-color: #5ed4d2;
   width: 200px;
 }
