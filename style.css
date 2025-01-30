@@ -1,5 +1,5 @@
 body {
-  background: rgb(194, 255, 179);
+  background: #266969;
   color: rgb(45, 45, 45);
   padding: 10px;
   font-family: Arial, sans-serif;
@@ -12,11 +12,12 @@ body {
 
 /* navigation menu */
 nav {
-  background: rgb(255, 228, 0);
+  background: #3BA5A5;
   margin: 0 auto;
   display: flex;
   padding: 10px;
   margin-bottom: 20px;
+  border-radius: 10px;
 }
 
 h1 {
@@ -46,9 +47,11 @@ a {
 
 /* main container area beneath menu */
 main {
-  background: rgb(245, 238, 219);
+  background: #3BA5A5;
   display: flex;
   margin-top: 20px;
+  border: 1 solid black;
+  border-radius: 10px;
 }
 
 .sidebar {
@@ -58,16 +61,20 @@ main {
 
 .sidebar-img {
   width: 200px;
+  border: 1 solid black;
+  border-radius: 10px;
 }
 
 .content {
   flex: 1;
   padding: 15px;
+  border-radius: 10px;
 }
 
 /* interests section styles */
 #interests {
   border: 4px silver ridge;
+  border-radius: 5px;
   padding: 8px;
   margin-top: 20px;
 }
@@ -89,7 +96,7 @@ h3 {
 }
 
 #portfolio li {
-  background: #fff;
+  background: #eaf0ce;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -102,4 +109,29 @@ h3 {
 #portfolio a {
   text-decoration: none;
   color: #454545;
+}
+
+#boxes {
+  background-color: #369696;
+  border:2px solid #0E0E44;
+  border-radius: 10px;
+  width: 300px;
+  height:150px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+#box1 {
+    color: #C4E9E7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#box2 button {
+  color: #D2EEED;
+  border:2px solid #000000;
+  border-radius: 10px;
+  background-color: #5ED4D2;
+  width: 200px;
 }
