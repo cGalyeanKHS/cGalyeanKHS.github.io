@@ -27,7 +27,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+    toggleGrid();
     // TODO 2 - Create Platforms
     var color = "#D0114A";
     var color2 = "#9C0D38";
@@ -59,8 +59,8 @@ $(function () {
     createPlatform(800,280,50,20,color2)
     createPlatform(805,285,40,10,color)
     //platform 8
-    createPlatform(550,280,50,20,color2)
-    createPlatform(555,285,40,10,color)
+    createPlatform(600,280,50,20,color2)
+    createPlatform(605,285,40,10,color)
     //platform 9
     createPlatform(300,280,50,20,color2)
     createPlatform(305,285,40,10,color)

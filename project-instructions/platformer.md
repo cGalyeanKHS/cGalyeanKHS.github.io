@@ -76,6 +76,7 @@ For example, calling `createPlatform(500, 300, 200, 20);` means:
 These numbers are **arguments** passed to the function, matching the **parameters** defined in the function.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
 # Lesson Steps
@@ -127,6 +128,7 @@ These numbers are **arguments** passed to the function, matching the **parameter
 - If you encounter issues, **preview your site** using Live Server to troubleshoot.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
 ## **TODO 0: Preview Your Site with Live Server**
@@ -159,6 +161,7 @@ There are two ways to open your project with **Live Server**:
   - Then navigate to your Platformer project by clicking the Platformer link.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
 ## **TODO 1: Enable the Grid**
@@ -208,6 +211,7 @@ There are two ways to open your project with **Live Server**:
 - Experiment with adding and removing the grid to see how it affects your ability to place items.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
 ## **TODO 2:** Add _Platforms_
@@ -224,18 +228,19 @@ There are two ways to open your project with **Live Server**:
    - You’ll be using the `createPlatform` function to set the position and size of each platform.
 
 2. **Understand the Arguments for `createPlatform`**
+
    - The `createPlatform` function requires several arguments to specify where each platform appears and its dimensions.
    - Refer to the table below to understand each argument’s purpose:
 
    <div style="width: 80%; margin: auto;">
 
-| Argument | Description                                                             | Example Value        |
-| -------- | ----------------------------------------------------------------------- | -------------------- |
-| `x`      | x-coordinate of the platform                                            | `500`                |
-| `y`      | y-coordinate of the platform                                            | `300`                |
-| `width`  | Width of the platform in pixels                                         | `200`                |
-| `height` | Height of the platform in pixels                                        | `20`                 |
-| `color`  | (Optional) Color of the platform; will default to grey if not specified | `"hotpink"`          |
+| Argument | Description                                                             | Example Value |
+| -------- | ----------------------------------------------------------------------- | ------------- |
+| `x`      | x-coordinate of the platform                                            | `500`         |
+| `y`      | y-coordinate of the platform                                            | `300`         |
+| `width`  | Width of the platform in pixels                                         | `200`         |
+| `height` | Height of the platform in pixels                                        | `20`          |
+| `color`  | (Optional) Color of the platform; will default to grey if not specified | `"hotpink"`   |
 
    </div>
 
@@ -279,6 +284,7 @@ createPlatform(1350, 400, 50, 50, "red");
 - Make sure you have at least 5 platforms placed at different heights and positions.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
 ## **TODO 3:** Add _Collectables_
@@ -302,7 +308,7 @@ createPlatform(1350, 400, 50, 50, "red");
 
    | Argument  | Description                                                             | Example Value |
    | --------- | ----------------------------------------------------------------------- | ------------- |
-   | `type`    | The type of collectable (e.g., "database", "diamond")                          | `"diamond"`      |
+   | `type`    | The type of collectable (e.g., "database", "diamond")                   | `"diamond"`   |
    | `x`       | x-coordinate of the collectable                                         | `200`         |
    | `y`       | y-coordinate of the collectable                                         | `170`         |
    | `gravity` | (Optional) Controls how the item falls; set to `0` if it shouldn’t fall | `0.5`         |
@@ -312,7 +318,7 @@ createPlatform(1350, 400, 50, 50, "red");
 
    **Important**: You can use any of the following values for your `type`: `"database"`, `"diamond"`, `"grace"`, `"kennedi"`, `"max"`, and `"steve"`
 
-   ---
+   ***
 
    Example function calls:
 
@@ -351,6 +357,7 @@ createPlatform(1350, 400, 50, 50, "red");
 - Make sure you have at least 3 collectables, with different types if possible.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
 ## **TODO 4:** Add _Cannons_
@@ -380,9 +387,8 @@ createPlatform(1350, 400, 50, 50, "red");
    </div>
 
    **Important**: You can use any of the following string values for your `side`: `"top"`, `"bottom"`, `"left"`, or `"right"`
-   
-  
-   --- 
+
+   ***
 
    Example function calls:
 
@@ -420,6 +426,7 @@ createPlatform(1350, 400, 50, 50, "red");
 - Ensure you have at least 3 cannons placed on different sides with varying delay intervals.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
 ## **TODO 5:** _Make your level challenging!_
@@ -431,9 +438,10 @@ Make sure your game unique and challenging! In order to get full credit your pro
 - Cannons are placed to create a challenge.
 
 <!-- 4 line breaks between TODOs -->
+
 <br><br><br><br>
 
-## **TODO 6:** *Go Live*
+## **TODO 6:** _Go Live_
 
 🎯 **Goal:** Push your changes to GitHub and make your platformer game go live.
 
@@ -442,19 +450,21 @@ Make sure your game unique and challenging! In order to get full credit your pro
 ### Step-by-Step Instructions
 
 1. **Ensure the grid is not visible**
+
    - If you used the grid to help build your game, make sure you disable it before saving your work. The grid is a tool for developers to place items accurately, but it can distract people (or dogs) who are playing your game.
    - To remove the grid, find the `toggleGrid()` function call underneath the `// TODO 1 - Enable the Grid` comment. Add two slashes (`//`) in front of the `toggleGrid` function call to disable that line of code.
 
 2. **Open the terminal in your codespace**
+
    - If the terminal isn’t visible, click the **Hamburger Menu > Terminal > New Terminal**.
 
 3. **Run the required git commands one by one** in the terminal, pressing enter after each command to run it. Reference the table and comment below for how to run the three commands:
 
-| Command              | Purpose                                                      |
-|----------------------|--------------------------------------------------------------|
-| `git add .`          | Stages all your changes so Git is aware of them.             |
-| `git commit -m "Finalized platformer game"`      | Saves a version of your work with a brief message.           |
-| `git push`           | Uploads your committed changes to GitHub, making them live.  |
+| Command                                     | Purpose                                                     |
+| ------------------------------------------- | ----------------------------------------------------------- |
+| `git add .`                                 | Stages all your changes so Git is aware of them.            |
+| `git commit -m "Finalized platformer game"` | Saves a version of your work with a brief message.          |
+| `git push`                                  | Uploads your committed changes to GitHub, making them live. |
 
 <br>
 
