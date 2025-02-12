@@ -27,7 +27,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    toggleGrid();
+    // toggleGrid();
     // TODO 2 - Create Platforms
     var color = "#D0114A";
     var color2 = "#9C0D38";
@@ -47,40 +47,40 @@ $(function () {
     createPlatform(800, 500, 100, 240, color2);
     createPlatform(805, 505, 90, 240, color);
     //platform 4
-    createPlatform(1000,500,100,240,color2)
-    createPlatform(1005,505,90,240,color)
+    createPlatform(1000, 500, 100, 240, color2);
+    createPlatform(1005, 505, 90, 240, color);
     //platform 5
-    createPlatform(1200,400,100,340,color2)
-    createPlatform(1205,405,90,340,color)
+    createPlatform(1200, 400, 100, 340, color2);
+    createPlatform(1205, 405, 90, 340, color);
     //platform 6
-    createPlatform(1050,280,50,20,color2)
-    createPlatform(1055,285,40,10,color)
+    createPlatform(1050, 280, 50, 20, color2);
+    createPlatform(1055, 285, 40, 10, color);
     //platform 7
-    createPlatform(800,280,50,20,color2)
-    createPlatform(805,285,40,10,color)
+    createPlatform(800, 280, 50, 20, color2);
+    createPlatform(805, 285, 40, 10, color);
     //platform 8
-    createPlatform(600,280,50,20,color2)
-    createPlatform(605,285,40,10,color)
+    createPlatform(600, 280, 50, 20, color2);
+    createPlatform(605, 285, 40, 10, color);
     //platform 9
-    createPlatform(300,280,50,20,color2)
-    createPlatform(305,285,40,10,color)
+    createPlatform(300, 280, 50, 20, color2);
+    createPlatform(305, 285, 40, 10, color);
     //platform 10
-    createPlatform(120,250,50,20,color2)
-    createPlatform(115,255,50,10,color)
+    createPlatform(120, 250, 50, 20, color2);
+    createPlatform(115, 255, 50, 10, color);
 
     // TODO 3 - Create Collectables
     //colectable 1
-    createCollectable("database",125,205,0)
-    createCollectable("steve",1230,355,0)
-    createCollectable("max",630,505,0)
+    createCollectable("coin3", 125, 205, 0);
+    createCollectable("coin2", 1230, 355, 0);
+    createCollectable("coin1", 630, 505, 0);
 
     // TODO 4 - Create Cannons
-    createCannon('bottom',490,1500)
-    createCannon('bottom',690,1000)
-    createCannon('bottom',890,1500)
-    createCannon('bottom',1090,1000)
-    createCannon('bottom',1290,1500)
-    createCannon('right',190,1000)
+    createCannon("bottom", 490, 1500);
+    createCannon("bottom", 690, 1000);
+    createCannon("bottom", 890, 1500);
+    createCannon("bottom", 1090, 1000);
+    createCannon("bottom", 1290, 1500);
+    createCannon("right", 190, 1000);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
